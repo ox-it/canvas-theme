@@ -47,6 +47,8 @@ $(document).ready(function () {
     }
 
     ga('set', 'dimension3', sUserRole);
+    // This currently loses the last octet of the address
+    ga('set', 'anonymizeIp', true);
 
     //If the user is in a course
     try {
