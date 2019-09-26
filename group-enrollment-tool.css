@@ -1,0 +1,17 @@
+/**********************************************
+* CSS Overrides for the Group Enrollment Tool *
+**********************************************/
+
+.canvas-group-enrollment__button-wrapper {
+  padding: 32px;
+  position: relative;
+  margin-right: 25px;
+}
+
+.canvas-group-enrollment__account-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/** End of CSS Overrides for the Group Enrollment Tool **/
