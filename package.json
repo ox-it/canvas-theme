@@ -1,0 +1,23 @@
+{
+  "name": "canvas-theme",
+  "version": "1.0.0",
+  "description": "Canvas Theme",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "mkdirp build && concat *.js -o build/bundle.js && concat *.css -o build/bundle.css"
+  },
+  "devDependencies": {
+    "concat": "^1.0.0",
+    "mkdirp": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ox-it/canvas-theme.git"
+  },
+  "author": "Centre for Teaching and Learning, University of Oxford",
+  "bugs": {
+    "url": "https://github.com/ox-it/canvas-theme/issues"
+  },
+  "homepage": "https://github.com/ox-it/canvas-theme#readme"
+}
