@@ -5,7 +5,7 @@
   
   // This ID must match the external tool ID assigned to GET in Canvas, listed in the URL when the tool is accessed
   // e.g. "1234" in https://ox.instructure.com/accounts/1/external_tools/1234
-  var EXTERNAL_TOOL_ID = 9314;
+  var EXTERNAL_TOOL_ID = 9604;
 
   function createButton() {
     var link = document.createElement('a');
