@@ -5,6 +5,11 @@ Canvas Theme
 
 Files to support our Canvas theme at Oxford. Currently there's no API to the themes so it's not possible to have changed in these files automatically published to Canvas. However this repository provides a revision history for changes.
 
+Debugging
+---------
+
+If there is ever a problem with something in Canvas and it's suspected that it's the theme (JS/CSS) that is causing it then you can load any Canvas page without the theme injected by appending `?global_includes=0` to the URL. For example: https://canvas.ox.ac.uk/courses/2598/external_tools/6033 becomes https://canvas.ox.ac.uk/courses/2598/external_tools/6033?global_includes=0
+
 Group Enrollment Tool
 ---------------------
 
